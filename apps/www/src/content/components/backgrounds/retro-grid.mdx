@@ -1,0 +1,51 @@
+---
+title: Retro Grid
+description: An animated scrolling retro grid effect
+component: true
+---
+
+<ComponentPreview name="retro-grid-01" />
+
+## Installation
+
+<Tabs defaultValue="cli">
+
+<TabsList>
+  <TabsTrigger value="cli">CLI</TabsTrigger>
+  <TabsTrigger value="manual">Manual</TabsTrigger>
+</TabsList>
+<TabsContent value="cli">
+
+```bash
+npx shadcn@latest add "https://designali.in/r/retro-grid"
+```
+
+</TabsContent>
+
+<TabsContent value="manual">
+
+<Steps>
+
+<Step>Copy and paste the following code into your project.</Step>
+
+<ComponentSource name="retro-grid" />
+
+<Step>Update the import paths to match your project setup.</Step>
+
+</Steps>
+
+</TabsContent>
+
+</Tabs> 
+
+
+### Props
+
+| Prop           | Type   | Description                                   | Default |
+| -------------- | ------ | --------------------------------------------- | ------- |
+| className      | string | Additional CSS classes for the grid container | ""      |
+| angle          | number | Rotation angle of the grid in degrees         | 65      |
+| cellSize       | number | Grid cell size in pixels                      | 60      |
+| opacity        | number | Grid opacity value between 0 and 1            | 0.5     |
+| lightLineColor | string | Grid line color in light mode                 | "gray"  |
+| darkLineColor  | string | Grid line color in dark mode                  | "gray"  |

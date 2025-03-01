@@ -1,0 +1,12 @@
+{
+  "name": "badge-03",
+  "type": "registry:example",
+  "files": [
+    {
+      "path": "example/components/badges/badge-03.tsx",
+      "content": "import { Zap } from \"lucide-react\";\n\nimport { Badge } from \"@/components/ui/badge\";\n\nexport default function BadgeDemo() {\n  return (\n    <Badge className=\"gap-1\">\n      <Zap\n        className=\"-ms-0.5 opacity-60\"\n        size={12}\n        strokeWidth={2}\n        aria-hidden=\"true\"\n      />\n      Badge\n    </Badge>\n  );\n}\n",
+      "type": "registry:example",
+      "target": ""
+    }
+  ]
+}
